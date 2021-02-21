@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="githubmodel"
+            type="com.demo.wallpaperdemo.module.GithubAlldata" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvt_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="hello"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvt_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="hello"
+            android:layout_below="@+id/tvt_one"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvt_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@+id/tvt_one"
+            android:text="hello"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</layout>
